@@ -244,6 +244,10 @@
   <ItemGroup>
     <Content Include="Service References\Application Insights\ConnectedService.json" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\ContactAid - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\ContactAid - Web Deploy.pubxml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
